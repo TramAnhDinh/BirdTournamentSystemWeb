@@ -15,9 +15,9 @@ function CreateTour() {
       <section>
         <div className="content">
           <div className="content__header">
-            <div className="content__header--title">
+            {/* <div className="content__header--title">
               <span className="content__header--title-text">Organize a Tournament</span>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div className="col-xl-8 ">
