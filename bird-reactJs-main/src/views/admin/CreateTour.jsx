@@ -7,9 +7,28 @@ import drop from "../../assets/img/admin/drop.png";
 import image_champion from "../../assets/img/admin/champion.png";
 
 import { Editor } from "react-draft-wysiwyg";
+import { EditorState, convertToRaw, convertFromRaw, ContentState } from 'draft-js';
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+import { useState } from "react";
+
+import data from '../../data/data.json';
 
 function CreateTour() {
+  
+ 
+  console.log(data);
+
+
+  const [editorState, setEditorState] = useState(
+    EditorState.createWithContent(
+    convertFromRaw(data)
+    )
+  );
+
+  const onEditorStateChange = function(newState){
+    setEditorState(newState);
+  }
+
   return (
     <AdminLayout>
       <section>
@@ -37,15 +56,24 @@ function CreateTour() {
                   </div>
                 </div>
                 <div className="content__body--tour-organize">
-                  <Editor></Editor>
+                  <Editor
+                   editorState={editorState}
+                   toolbarClassName="toolbarClassName"
+                    wrapperClassName="wrapperClassName"
+                    editorClassName="editorClassName"
+                   onEditorStateChange={onEditorStateChange}
+                  ></Editor>
                 </div>
+               
 
                 <div className="content__body--tour-edit">
+               
                   <div className="tour__edit--img">
                     <div className="tour__edit--img-heading">Images</div>
                     <div className="tour__edit--img-body">
                       <div className="row">
                         <div className="col-xl-5">
+                        
                           <div className="tour__edit--drop-img">
                             <img src={drop} alt="drop" />
                           </div>
