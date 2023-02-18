@@ -3,7 +3,7 @@ import AdminLayout, {
   NavAdmin,
   Search,
   TableContent,
-} from "../layout/admin/AdminLayout";
+} from '../layout/admin/AdminLayout';
 
 function Ruler() {
   return (
@@ -13,9 +13,7 @@ function Ruler() {
           <div className="content__header">
             <div className="row">
               <div className="col-xl-12 col-md-12 content__header--title">
-                <span className="content__header--title-text">
-                  Danh sách trận đấu
-                </span>
+                <span className="content__header--title-text">Danh sách trận đấu</span>
               </div>
             </div>
           </div>

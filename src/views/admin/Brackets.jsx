@@ -1,7 +1,4 @@
-import AdminLayout, {
-  HorizonNavbar,
-  TableContent,
-} from "../layout/admin/AdminLayout";
+import AdminLayout, { HorizonNavbar, TableContent } from '../layout/admin/AdminLayout';
 
 function Brackets() {
   return (
@@ -10,9 +7,7 @@ function Brackets() {
         <div className="content">
           <div className="row content__brackets--heading">
             <div className="col-xl-4 col-md-4 content__header--title bracket--title">
-              <span className="content__header--title-text ">
-                FPT Bird Tournament
-              </span>
+              <span className="content__header--title-text ">FPT Bird Tournament</span>
             </div>
             <div className="col-xl-7">
               <HorizonNavbar />

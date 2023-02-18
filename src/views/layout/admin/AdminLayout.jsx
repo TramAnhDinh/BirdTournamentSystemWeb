@@ -1,13 +1,13 @@
 /// day la layout
-import "../../../core/components/css/AdminLayout.css";
+import '../../../core/components/css/AdminLayout.css';
 
-import avatar from "../../../assets/img/admin/avatar_admin.png";
-import { useNavigate } from "react-router-dom";
-import { useEffect, useLayoutEffect, useState } from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { AdminNav } from "../../../core/utils/Types";
-import AdminNavigate from "../../../core/components/AdminNav";
-import adminNavModel from "../../../models/AdminNavModel";
+import avatar from '../../../assets/img/admin/avatar_admin.png';
+import { useNavigate } from 'react-router-dom';
+import { useEffect, useLayoutEffect, useState } from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { AdminNav } from '../../../core/utils/Types';
+import AdminNavigate from '../../../core/components/AdminNav';
+import adminNavModel from '../../../models/AdminNavModel';
 export function HeaderAdmin() {
   return (
     <header className="header">
@@ -32,7 +32,7 @@ const AdminLayout = (props) => {
   const navigate = useNavigate();
   return (
     <div className="row">
-      <AdminNavigate links={adminNavModel.links}/>
+      <AdminNavigate links={adminNavModel.links} />
       <div className="col-xl-9 col-md-9 tournament">
         <HeaderAdmin />
         {props.children}
@@ -170,12 +170,7 @@ export function TableContent() {
 export function Search() {
   return (
     <div className="content__search">
-      <input
-        type="text"
-        name="Search"
-        placeholder="Search"
-        className="content__search--input"
-      />
+      <input type="text" name="Search" placeholder="Search" className="content__search--input" />
       <label htmlFor="Search" className="content__search--label">
         Keyword
       </label>

@@ -1,7 +1,7 @@
-import AdminLayout from "../layout/admin/AdminLayout";
-import avatarBird from "../../assets/img/admin/avatarbird.png";
-import avatar2Bird from "../../assets/img/admin/avatar2bird.png";
-import image_champion from "../../assets/img/admin/champion.png";
+import AdminLayout from '../layout/admin/AdminLayout';
+import avatarBird from '../../assets/img/admin/avatarbird.png';
+import avatar2Bird from '../../assets/img/admin/avatar2bird.png';
+import image_champion from '../../assets/img/admin/champion.png';
 
 function BirdDetail() {
   return (
@@ -11,9 +11,7 @@ function BirdDetail() {
           <div className="content__header">
             <div className="row">
               <div className="col-xl-12 col-md-12 content__header--title">
-                <span className="content__header--title-text">
-                  Bird Information
-                </span>
+                <span className="content__header--title-text">Bird Information</span>
               </div>
             </div>
           </div>
@@ -24,28 +22,19 @@ function BirdDetail() {
                 <div className="col-xl-4">
                   <div className="content__information">
                     <div className="content__information--active">
-                      <span className="content__information--active-attach">
-                        ACTIVE
-                      </span>
+                      <span className="content__information--active-attach">ACTIVE</span>
                     </div>
                     <div className="content__information--avatar">
                       <div className="content__information--avatar-img">
                         <div className="avatar--info">
-                          <img
-                            src={avatarBird}
-                            alt="avatarBird"
-                            className="avatar--info-img"
-                          />
+                          <img src={avatarBird} alt="avatarBird" className="avatar--info-img" />
                         </div>
                         <div className="avatar--info-border"></div>
                       </div>
 
                       <div className="content__information--avatar-text">
                         <div className="avatar-img-info">
-                          <span>
-                            Allowed *.jpeg, *.jpg, *.png, *.gif max size of 3.1
-                            MB
-                          </span>
+                          <span>Allowed *.jpeg, *.jpg, *.png, *.gif max size of 3.1 MB</span>
                         </div>
                       </div>
                     </div>
@@ -72,20 +61,14 @@ function BirdDetail() {
                           <div className="row">
                             <div className="col-xl-2">
                               <div className="content__information--owner-img">
-                                <img
-                                  src={avatar2Bird}
-                                  alt="avatar2Bird"
-                                  className="owner-img"
-                                />
+                                <img src={avatar2Bird} alt="avatar2Bird" className="owner-img" />
                               </div>
                             </div>
                             <div className="col-xl-10 content__information--owner-item">
                               <div className="content__information--owner-heading">
                                 <span>Owner</span>
                               </div>
-                              <div className="content__information--owner-text">
-                                Nguyễn Văn A
-                              </div>
+                              <div className="content__information--owner-text">Nguyễn Văn A</div>
                             </div>
                           </div>
                         </div>
@@ -98,27 +81,21 @@ function BirdDetail() {
                                   <span>Name</span>
                                 </div>
 
-                                <div className="content__information--item-text">
-                                  Chào mào Nerd
-                                </div>
+                                <div className="content__information--item-text">Chào mào Nerd</div>
                               </div>
                               <div className="content__information--item">
                                 <div className="content__information--item-heading">
                                   <span>Type</span>
                                 </div>
 
-                                <div className="content__information--item-text">
-                                  Chào mào Bông
-                                </div>
+                                <div className="content__information--item-text">Chào mào Bông</div>
                               </div>
                               <div className="content__information--item">
                                 <div className="content__information--item-heading">
                                   <span>Gender</span>
                                 </div>
 
-                                <div className="content__information--item-text">
-                                  Male
-                                </div>
+                                <div className="content__information--item-text">Male</div>
                               </div>
                             </div>
                             <div className="col-xl-6">
@@ -127,18 +104,14 @@ function BirdDetail() {
                                   <span>Age</span>
                                 </div>
 
-                                <div className="content__information--item-text">
-                                  14 months
-                                </div>
+                                <div className="content__information--item-text">14 months</div>
                               </div>
                               <div className="content__information--item">
                                 <div className="content__information--item-heading">
                                   <span>Weight</span>
                                 </div>
 
-                                <div className="content__information--item-text">
-                                  0.3 kg
-                                </div>
+                                <div className="content__information--item-text">0.3 kg</div>
                               </div>
                             </div>
                           </div>
@@ -149,15 +122,11 @@ function BirdDetail() {
                 </div>
 
                 <div className="col-xl-8">
-                    <div className="content__statistical">
-                        <div className="content__statistical-item">
+                  <div className="content__statistical">
+                    <div className="content__statistical-item"></div>
 
-                        </div>
-
-                        <div className="content__statistical-item">
-                            
-                        </div>
-                    </div>
+                    <div className="content__statistical-item"></div>
+                  </div>
                 </div>
               </div>
             </div>

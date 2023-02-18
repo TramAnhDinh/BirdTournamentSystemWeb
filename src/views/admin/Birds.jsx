@@ -1,4 +1,4 @@
-import AdminLayout, { Search, TableContent } from "../layout/admin/AdminLayout";
+import AdminLayout, { Search, TableContent } from '../layout/admin/AdminLayout';
 
 function Birds() {
   return (
@@ -8,9 +8,7 @@ function Birds() {
           <div className="content__header">
             <div className="row">
               <div className="col-xl-12 col-md-12 content__header--title">
-                <span className="content__header--title-text">
-                  Danh sách trận đấu
-                </span>
+                <span className="content__header--title-text">Danh sách trận đấu</span>
               </div>
             </div>
           </div>
@@ -22,7 +20,7 @@ function Birds() {
                   <Search />
                 </div>
               </div>
-              
+
               <TableContent />
             </div>
           </div>

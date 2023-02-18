@@ -1,7 +1,7 @@
-import AdminLayout from "../layout/admin/AdminLayout";
-import avatarBird from "../../assets/img/admin/avatarbird.png";
-import avatar2Bird from "../../assets/img/admin/avatar2bird.png";
-import image_champion from "../../assets/img/admin/champion.png";
+import AdminLayout from '../layout/admin/AdminLayout';
+import avatarBird from '../../assets/img/admin/avatarbird.png';
+import avatar2Bird from '../../assets/img/admin/avatar2bird.png';
+import image_champion from '../../assets/img/admin/champion.png';
 
 function UserDetail() {
   return (
@@ -10,9 +10,7 @@ function UserDetail() {
         <div className="content">
           <div className="content__header">
             <div className="content__header--title">
-              <span className="content__header--title-text">
-                Organize a Tournament
-              </span>
+              <span className="content__header--title-text">Organize a Tournament</span>
             </div>
           </div>
           <div className="row">
@@ -57,7 +55,7 @@ function UserDetail() {
 
                       <div className="">
                         <div className="champion--from-text champion-userdetail">
-                        Đã đấu qua 30 trận đấu với 16 trận được đi tiếp
+                          Đã đấu qua 30 trận đấu với 16 trận được đi tiếp
                         </div>
                       </div>
                     </div>
@@ -97,7 +95,7 @@ function UserDetail() {
 
                       <div className="">
                         <div className="champion--from-text champion-userdetail champion-userdetail-nolist">
-                        Không có lịch sử thi đấu
+                          Không có lịch sử thi đấu
                         </div>
                       </div>
                     </div>
@@ -137,7 +135,7 @@ function UserDetail() {
 
                       <div className="">
                         <div className="champion--from-text champion-userdetail ">
-                        Đã đấu qua 30 trận đấu với 16 trận được đi tiếp
+                          Đã đấu qua 30 trận đấu với 16 trận được đi tiếp
                         </div>
                       </div>
                     </div>
@@ -177,7 +175,7 @@ function UserDetail() {
 
                       <div className="">
                         <div className="champion--from-text champion-userdetail champion-userdetail-nolist">
-                        Không có lịch sử thi đấu
+                          Không có lịch sử thi đấu
                         </div>
                       </div>
                     </div>
@@ -190,27 +188,19 @@ function UserDetail() {
               <div className="content__body--tour--general">
                 <div className="content__information">
                   <div className="content__information--active">
-                    <span className="content__information--active-attach">
-                      ACTIVE
-                    </span>
+                    <span className="content__information--active-attach">ACTIVE</span>
                   </div>
                   <div className="content__information--avatar">
                     <div className="content__information--avatar-img">
                       <div className="avatar--info">
-                        <img
-                          src={avatarBird}
-                          alt="avatarBird"
-                          className="avatar--info-img"
-                        />
+                        <img src={avatarBird} alt="avatarBird" className="avatar--info-img" />
                       </div>
                       <div className="avatar--info-border"></div>
                     </div>
 
                     <div className="content__information--avatar-text">
                       <div className="avatar-img-info">
-                        <span>
-                          Allowed *.jpeg, *.jpg, *.png, *.gif max size of 3.1 MB
-                        </span>
+                        <span>Allowed *.jpeg, *.jpg, *.png, *.gif max size of 3.1 MB</span>
                       </div>
                     </div>
                   </div>
@@ -242,8 +232,7 @@ function UserDetail() {
                         </div>
                         <div className="content__information--banned-text">
                           <span>
-                            Disabling this will automatically send the user a
-                            verification email
+                            Disabling this will automatically send the user a verification email
                           </span>
                         </div>
                       </div>
@@ -300,10 +289,7 @@ function UserDetail() {
                           placeholder="Email Address"
                           className="tour--info-input"
                         />
-                        <label
-                          htmlFor="EmailAddress"
-                          className="tour--info-label label-width"
-                        >
+                        <label htmlFor="EmailAddress" className="tour--info-label label-width">
                           Email Address
                         </label>
                       </div>
@@ -317,10 +303,7 @@ function UserDetail() {
                           placeholder="Phone Number"
                           className="tour--info-input"
                         />
-                        <label
-                          htmlFor="PhoneNumber"
-                          className="tour--info-label label-width"
-                        >
+                        <label htmlFor="PhoneNumber" className="tour--info-label label-width">
                           Phone Number
                         </label>
                       </div>

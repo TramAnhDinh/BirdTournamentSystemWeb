@@ -1,8 +1,8 @@
-import AdminLayout, { HorizonNavbar } from "../layout/admin/AdminLayout";
-import image_1 from "../../assets/img/admin/imageRuler.png";
-import image_2 from "../../assets/img/admin/nodesRuler.png";
-import image_3 from "../../assets/img/admin/nodesRuler_2.png";
-import image_champion from "../../assets/img/admin/champion.png";
+import AdminLayout, { HorizonNavbar } from '../layout/admin/AdminLayout';
+import image_1 from '../../assets/img/admin/imageRuler.png';
+import image_2 from '../../assets/img/admin/nodesRuler.png';
+import image_3 from '../../assets/img/admin/nodesRuler_2.png';
+import image_champion from '../../assets/img/admin/champion.png';
 
 function Overview() {
   return (
@@ -11,9 +11,7 @@ function Overview() {
         <div className="content content-brackets">
           <div className="row content__brackets--heading">
             <div className="col-xl-4 col-md-4 content__header--title bracket--title">
-              <span className="content__header--title-text ">
-                FPT Bird Tournament
-              </span>
+              <span className="content__header--title-text ">FPT Bird Tournament</span>
             </div>
             <div className="col-xl-7">
               <HorizonNavbar />
@@ -47,35 +45,24 @@ function Overview() {
 
                         <div className="content-text">
                           <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Quis lobortis nisl cursus bibendum sit nulla
-                            accumsan sodales ornare. At urna viverra non
-                            suspendisse neque, lorem. Pretium condimentum
-                            pellentesque gravida id etiam sit sed arcu euismod.
-                            Rhoncus proin orci duis scelerisque molestie cursus
-                            tincidunt aliquam.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis
+                            nisl cursus bibendum sit nulla accumsan sodales ornare. At urna viverra
+                            non suspendisse neque, lorem. Pretium condimentum pellentesque gravida
+                            id etiam sit sed arcu euismod. Rhoncus proin orci duis scelerisque
+                            molestie cursus tincidunt aliquam.
                           </span>
                           <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Quis lobortis nisl cursus bibendum sit nulla
-                            accumsan sodales ornare. At urna viverra non
-                            suspendisse neque, lorem. Pretium condimentum
-                            pellentesque gravida id etiam sit sed arcu euismod.
-                            Rhoncus proin orci duis scelerisque molestie cursus
-                            tincidunt aliquam.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis
+                            nisl cursus bibendum sit nulla accumsan sodales ornare. At urna viverra
+                            non suspendisse neque, lorem. Pretium condimentum pellentesque gravida
+                            id etiam sit sed arcu euismod. Rhoncus proin orci duis scelerisque
+                            molestie cursus tincidunt aliquam.
                           </span>
                         </div>
                         <div className="content__imgRuler">
-                          <img
-                            src={image_1}
-                            alt=""
-                            className="content__imgRuler--img"
-                          />
+                          <img src={image_1} alt="" className="content__imgRuler--img" />
                           <div className="content__imgRuler--text">
-                            <a
-                              href=""
-                              className="content__imgRuler--text-link content-text"
-                            >
+                            <a href="" className="content__imgRuler--text-link content-text">
                               Link text reuse anchor component
                             </a>
                           </div>
@@ -86,9 +73,8 @@ function Overview() {
                           <ul>
                             <li>unordered list item</li>
                             <li>
-                              unordered list itemunordered list itemunordered
-                              list itemunordered list itemunordered list
-                              itemunordered list itemunordered list
+                              unordered list itemunordered list itemunordered list itemunordered
+                              list itemunordered list itemunordered list itemunordered list
                               itemunordered list item
                             </li>
                             <li>unordered list item</li>
@@ -108,22 +94,16 @@ function Overview() {
 
                         <div className="content-text">
                           <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Quis lobortis nisl cursus bibendum sit nulla
-                            accumsan sodales ornare. At urna viverra non
-                            suspendisse neque, lorem. Pretium condimentum
-                            pellentesque gravida id etiam sit sed arcu euismod.
-                            Rhoncus proin orci duis scelerisque molestie cursus
-                            tincidunt aliquam.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis
+                            nisl cursus bibendum sit nulla accumsan sodales ornare. At urna viverra
+                            non suspendisse neque, lorem. Pretium condimentum pellentesque gravida
+                            id etiam sit sed arcu euismod. Rhoncus proin orci duis scelerisque
+                            molestie cursus tincidunt aliquam.
                           </span>
                         </div>
 
                         <div className="content__imgRuler">
-                          <img
-                            src={image_2}
-                            alt=""
-                            className="content__imgRuler--img"
-                          />
+                          <img src={image_2} alt="" className="content__imgRuler--img" />
                         </div>
 
                         <div className="content-text">
@@ -135,18 +115,11 @@ function Overview() {
                         </div>
 
                         <div className="content__imgRuler">
-                          <img
-                            src={image_3}
-                            alt=""
-                            className="content__imgRuler--img"
-                          />
+                          <img src={image_3} alt="" className="content__imgRuler--img" />
                         </div>
 
                         <div className="content-text content-text-nothing">
-                          <span>
-                            Nothing is impossible, the word itself says “I’m
-                            possible!”
-                          </span>
+                          <span>Nothing is impossible, the word itself says “I’m possible!”</span>
                         </div>
                       </div>
                     </div>
@@ -162,9 +135,7 @@ function Overview() {
                         <div className="champion__heading--title">
                           <span>Champion</span>
                         </div>
-                        <div className="champion__heading--text">
-                          Highest overall score
-                        </div>
+                        <div className="champion__heading--text">Highest overall score</div>
                       </div>
                       <div className="col-xl-5">
                         <div className="champion__heading--score">
@@ -240,43 +211,43 @@ function Overview() {
 
                   <div className="timeline__body">
                     <div className="timeline__body--item">
-                    <ul>
-                          <li>
-                            <span className="thoi_gian">
-                              <h4>January 21</h4>
-                            </span>
-                          </li>
-                          <li>
-                            <span className="thoi_gian">
-                              <h4>Febuary 22</h4>
-                            </span>
-                          </li>
-                          <li>
-                            <span className="thoi_gian">
-                              <h4>March 23</h4>
-                            </span>
-                          </li>
-                          <li>
-                            <span className="thoi_gian">
-                              <h4>April 4</h4>
-                            </span>
-                          </li>
-                          <li>
-                            <span className="thoi_gian">
-                              <h4>May 25</h4>
-                            </span>
-                          </li>
-                          <li>
-                            <span className="thoi_gian">
-                              <h4>July 26</h4>
-                            </span>
-                          </li>
-                          <li>
-                            <span className="thoi_gian">
-                              <h4>September</h4>
-                            </span>
-                          </li>
-                        </ul>
+                      <ul>
+                        <li>
+                          <span className="thoi_gian">
+                            <h4>January 21</h4>
+                          </span>
+                        </li>
+                        <li>
+                          <span className="thoi_gian">
+                            <h4>Febuary 22</h4>
+                          </span>
+                        </li>
+                        <li>
+                          <span className="thoi_gian">
+                            <h4>March 23</h4>
+                          </span>
+                        </li>
+                        <li>
+                          <span className="thoi_gian">
+                            <h4>April 4</h4>
+                          </span>
+                        </li>
+                        <li>
+                          <span className="thoi_gian">
+                            <h4>May 25</h4>
+                          </span>
+                        </li>
+                        <li>
+                          <span className="thoi_gian">
+                            <h4>July 26</h4>
+                          </span>
+                        </li>
+                        <li>
+                          <span className="thoi_gian">
+                            <h4>September</h4>
+                          </span>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>

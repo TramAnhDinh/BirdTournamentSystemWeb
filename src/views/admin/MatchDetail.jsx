@@ -1,6 +1,6 @@
-import AdminLayout, { Search } from "../layout/admin/AdminLayout";
-import image_champion from "../../assets/img/admin/champion.png";
-import avatar2Bird from "../../assets/img/admin/avatar2bird.png";
+import AdminLayout, { Search } from '../layout/admin/AdminLayout';
+import image_champion from '../../assets/img/admin/champion.png';
+import avatar2Bird from '../../assets/img/admin/avatar2bird.png';
 
 function MatchDetail() {
   return (
@@ -11,9 +11,7 @@ function MatchDetail() {
             <div className="content__header">
               <div className="row">
                 <div className="col-xl-12 col-md-12 content__header--title">
-                  <span className="content__header--title-text">
-                    Bird Information
-                  </span>
+                  <span className="content__header--title-text">Bird Information</span>
                 </div>
               </div>
             </div>
@@ -28,9 +26,7 @@ function MatchDetail() {
                           <div className="champion__heading--title">
                             <span>Champion</span>
                           </div>
-                          <div className="champion__heading--text">
-                            Highest overall score
-                          </div>
+                          <div className="champion__heading--text">Highest overall score</div>
                         </div>
                         <div className="col-xl-5">
                           <div className="champion__heading--score">
@@ -101,8 +97,7 @@ function MatchDetail() {
                       <div className="champion__bottom--point">
                         <div className="champion__bottom--point-average champion__bottom--point-text">
                           <span className="champion__bottom--point-children">
-                            Trung bình điểm số cao hơn 10% so với đối top 2 của
-                            trận
+                            Trung bình điểm số cao hơn 10% so với đối top 2 của trận
                           </span>
                         </div>
 
@@ -143,10 +138,7 @@ function MatchDetail() {
                         placeholder="Status"
                         className="content__search--input"
                       />
-                      <label
-                        htmlFor="Status"
-                        className="content__search--label"
-                      >
+                      <label htmlFor="Status" className="content__search--label">
                         Status
                       </label>
                       <div className="icon--search">
@@ -227,9 +219,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -296,9 +286,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -365,9 +353,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -434,9 +420,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -503,9 +487,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -572,9 +554,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -641,9 +621,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -710,9 +688,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -779,9 +755,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -848,9 +822,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -917,9 +889,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -986,9 +956,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1055,9 +1023,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1124,9 +1090,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1193,9 +1157,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1262,9 +1224,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1331,9 +1291,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1400,9 +1358,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1469,9 +1425,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1538,9 +1492,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1607,9 +1559,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1676,9 +1626,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--failed">
-                                failed
-                              </span>
+                              <span className="matchDetail--failed">failed</span>
                             </div>
                           </div>
                         </div>
@@ -1745,9 +1693,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--passed">
-                                passed
-                              </span>
+                              <span className="matchDetail--passed">passed</span>
                             </div>
                           </div>
                         </div>
@@ -1814,9 +1760,7 @@ function MatchDetail() {
                             </div>
 
                             <div className="col-xl-2 matchDetail--status">
-                              <span className="matchDetail--match">
-                                In Match
-                              </span>
+                              <span className="matchDetail--match">In Match</span>
                             </div>
                           </div>
                         </div>
@@ -1861,10 +1805,7 @@ function MatchDetail() {
                         placeholder="Voice"
                         className="tour--info-input"
                       />
-                      <label
-                        htmlFor="Voice"
-                        className="tour--info-label label-width"
-                      >
+                      <label htmlFor="Voice" className="tour--info-label label-width">
                         Voice
                       </label>
                     </div>
@@ -1878,10 +1819,7 @@ function MatchDetail() {
                         placeholder="Posture"
                         className="tour--info-input"
                       />
-                      <label
-                        htmlFor="Posture"
-                        className="tour--info-label label-width"
-                      >
+                      <label htmlFor="Posture" className="tour--info-label label-width">
                         Posture
                       </label>
                     </div>

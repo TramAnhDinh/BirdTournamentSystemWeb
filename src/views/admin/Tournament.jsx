@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import AdminLayout, {
   HeaderAdmin,
   NavAdmin,
   Search,
   TableContent,
-} from "../layout/admin/AdminLayout";
+} from '../layout/admin/AdminLayout';
 
 function Tournament() {
   return (
@@ -14,9 +14,7 @@ function Tournament() {
           <div className="content__header">
             <div className="row">
               <div className="col-xl-9 col-md-7 content__header--title">
-                <span className="content__header--title-text">
-                  Danh sách giải đấu
-                </span>
+                <span className="content__header--title-text">Danh sách giải đấu</span>
               </div>
               <div className="col-xl-3 col-md-5">
                 <Link to="/Admin/CreateTour" className="content__create">
