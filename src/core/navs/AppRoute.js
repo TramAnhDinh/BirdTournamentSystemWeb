@@ -15,6 +15,8 @@ import CreateTour from '../../views/admin/CreateTour';
 import UserDetail from '../../views/admin/UserDetail';
 import Setting from '../../views/admin/Setting';
 
+import ClientTournaments from '../../views/client/ClientTournaments';
+
 const ClientRouter = (props) => {
   return (
     <BrowserRouter>
@@ -35,6 +37,8 @@ const ClientRouter = (props) => {
         <Route path="/Admin/UserDetail" element={<UserDetail />} />
         <Route path="/Admin/MatchDetail" element={<MatchDetail />} />
         <Route path="/Admin/Settings" element={<Setting />} />
+
+        <Route path="/Client/Tournaments"  element={<ClientTournaments />} />
       </Routes>
     </BrowserRouter>
   );
