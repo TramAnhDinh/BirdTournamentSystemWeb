@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect x="12.231" y="27.881" width="102.405" height="30.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <rect x="5.804" y="275.808" width="102.405" height="30.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <rect x="143.034" y="67.682" width="102.405" height="30.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <rect x="138.743" y="226.13" width="102.405" height="30.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <rect x="268.657" y="105.825" width="102.405" height="30.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <rect x="270.315" y="185.842" width="102.405" height="30.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <rect x="391.376" y="146.041" width="102.405" height="30.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="18.788" y="49.297">VÒNG LOẠI</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="13.06" y="297.363">TOP 50</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="166.878" y="87.929">TOP 30</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="159.634" y="247.821">TOP 40</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="288.406" y="126.203">TOP 20</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="293.414" y="206.328">TOP 10</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; white-space: pre;" x="396.433" y="166.98">Chung kết</text>
+  <path d="M 56.705 74.551 H 233.146 L 233.146 70.551 L 244.146 75.051 L 233.146 79.551 L 233.146 75.551 H 56.705 V 74.551 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 131.756212, 18.346352)" bx:shape="arrow 56.705 70.551 187.441 9 1 11 0 1@53cc56da"/>
+  <path d="M 130.392 292.75 H 157.818 L 157.818 288.75 L 168.818 293.25 L 157.818 297.75 L 157.818 293.75 H 130.392 V 292.75 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -169.167941, 178.091555)" bx:shape="arrow 130.392 288.75 38.426 9 1 11 0 1@c97f4e23"/>
+  <path d="M 193.347 214.055 H 286.09 L 286.09 210.055 L 297.09 214.555 L 286.09 219.055 L 286.09 215.055 H 193.347 V 214.055 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0, -1, 1, 0, -21.207947, 407.902197)" bx:shape="arrow 193.347 210.055 103.743 9 1 11 0 1@4d47cf11"/>
+  <path d="M 253.441 80.275 H 297.28 L 297.28 76.275 L 308.28 80.775 L 297.28 85.275 L 297.28 81.275 H 253.441 V 80.275 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0.965363, 0.260909, -0.260909, 0.965363, 29.853131, -63.327291)" bx:shape="arrow 253.441 76.275 54.839 9 1 11 0 1@8d835503"/>
+  <path d="M 314.25 144.661 H 339.049 L 339.049 140.661 L 350.049 145.161 L 339.049 149.661 L 339.049 145.661 H 314.25 V 144.661 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 459.411262, -169.089526)" bx:shape="arrow 314.25 140.661 35.799 9 1 11 0 1@279b9402"/>
+  <path d="M 378.637 201.893 H 410.947 L 410.947 197.893 L 421.947 202.393 L 410.947 206.893 L 410.947 202.893 H 378.637 V 201.893 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0.92502, -0.379919, 0.379919, 0.92502, -48.50274, 159.026705)" bx:shape="arrow 378.637 197.893 43.31 9 1 11 0 1@ad28d184"/>
+</svg>

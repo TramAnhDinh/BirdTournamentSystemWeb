@@ -264,3 +264,8 @@
 .Detail__item {
     padding: 50px 20px 10px;
 }
+
+.Tournament-Detail {
+    position: fixed;
+    z-index: 2;
+}

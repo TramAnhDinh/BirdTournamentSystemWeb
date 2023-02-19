@@ -16,6 +16,8 @@ import UserDetail from '../../views/admin/UserDetail';
 import Setting from '../../views/admin/Setting';
 
 import ClientTournaments from '../../views/client/ClientTournaments';
+import ClientTournamentsDetail from '../../views/client/ClientTournamentsDetail';
+import ClientTournamentsRound from '../../views/client/ClientTournamentsRound';
 
 const ClientRouter = (props) => {
   return (
@@ -39,6 +41,9 @@ const ClientRouter = (props) => {
         <Route path="/Admin/Settings" element={<Setting />} />
 
         <Route path="/Client/Tournaments"  element={<ClientTournaments />} />
+        <Route path="/Client/TournamentsDetail"  element={<ClientTournamentsDetail />} />
+        <Route path="/Client/TournamentsRound"  element={<ClientTournamentsRound />} />
+
       </Routes>
     </BrowserRouter>
   );
