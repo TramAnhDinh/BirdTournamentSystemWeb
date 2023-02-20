@@ -1,8 +1,9 @@
-import ClientLayout, { ClientNavigate } from '../layout/client/ClientLayout';
+import { ClientNavigate } from '../layout/client/ClientLayout';
 import { ClientNav } from '../../core/utils/Types';
-import HomeHeader from './HomeHeader';
 
 import tournament_image from "../../assets/img/user/tornament.png";
+
+import "../../core/components/css/Tournaments.css"
 
 function ClientTournaments() {
   const links = [
@@ -22,33 +23,33 @@ function ClientTournaments() {
 
           <div className={'d-flex'}>
             <div className={'column flex mx-5'}>
-              <div className={'py-5 text-center rounded'} style={{ background: '#C0C0FF' }}>
+              <div className={'py-5 text-center rounded sidebar-tournament'}>
                 <div className={'py-3 '}>
                   GIẢI ĐẤU ĐANG DIỄN RA
                 </div>
                 <div className={'py-3'}>
                   GIẢI ĐẤU SẮP DIỄN RA
                 </div>
-                <div className={'py-3'} style={{ background: '#E1E1FF' }}>
+                <div className={'py-3 sidebar-selectedTournament'}>
                   GIẢI ĐẤU ĐÃ DIỄN RA
                 </div>
               </div>
 
-              <div className={'column my-4 p-4 rounded'} style={{ background: '#C0C0FF' }}>
+              <div className={'column my-4 p-4 rounded sidebar-tournament'}>
                 <div className='col'>
                   CÁC GIẢI ĐẤU ĐANG HOT
                 </div>
-                <div className='col p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                <div className='col p-3 rounded text-center fw-bold my-4 tournament-block'>
                   <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                   <br />
                   Giải đấu A
                 </div>
-                <div className='col p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                <div className='col p-3 rounded text-center fw-bold my-4 tournament-block'>
                   <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                   <br />
                   Giải đấu A
                 </div>
-                <div className='col p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                <div className='col p-3 rounded text-center fw-bold my-4 tournament-block'>
                   <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                   <br />
                   Giải đấu A
@@ -70,56 +71,56 @@ function ClientTournaments() {
                     <a className={'dropdown-item'} href="#">Search</a>
                   </div>
                 </div>
-                <button type="button" className={'btn btn-light'} style={{ background: '#D7D7FF' }}>Search</button>
+                <button type="button" className={'btn btn-light search-btn'}>Search</button>
 
               </div>
               <div className={'col-9 mx-auto'}>
                 <div className={'d-flex justify-content-between'}>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block'>
                     <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                     <br />
                     Giải đấu A
                   </div>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block'>
                     <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                     <br />
                     Giải đấu A
                   </div>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
-                    <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
-                    <br />
-                    Giải đấu A
-                  </div>
-                </div>
-                <div className={'d-flex justify-content-between'}>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
-                    <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
-                    <br />
-                    Giải đấu A
-                  </div>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
-                    <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
-                    <br />
-                    Giải đấu A
-                  </div>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block'>
                     <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                     <br />
                     Giải đấu A
                   </div>
                 </div>
                 <div className={'d-flex justify-content-between'}>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block'>
                     <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                     <br />
                     Giải đấu A
                   </div>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block' >
                     <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                     <br />
                     Giải đấu A
                   </div>
-                  <div className='p-3 rounded text-center fw-bold my-4' style={{ background: 'white' }}>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block' >
+                    <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
+                    <br />
+                    Giải đấu A
+                  </div>
+                </div>
+                <div className={'d-flex justify-content-between'}>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block'>
+                    <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
+                    <br />
+                    Giải đấu A
+                  </div>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block' >
+                    <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
+                    <br />
+                    Giải đấu A
+                  </div>
+                  <div className='p-3 rounded text-center fw-bold my-4 tournament-block' >
                     <img src={tournament_image} className={'rounded mx-auto d-block'} alt="Cinque Terre"></img>
                     <br />
                     Giải đấu A
